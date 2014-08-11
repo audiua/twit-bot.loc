@@ -1,0 +1,71 @@
+INSERT INTO `users` SET `user_id` = '277416059' , `used_friends`=REMOVE_FROM_SET( '702736716', `used_friends`) , `unfollowing`=REMOVE_FROM_SET( '702736716', `unfollowing`) ,`unsuccessful_try` = `unsuccessful_try` + 1 , try_friend = CASE WHEN try_friend = 702736716 THEN try_friend = NULL, try_time = NULL END ON DUPLICATE KEY UPDATE `user_id` = '277416059' , `used_friends`=REMOVE_FROM_SET( '702736716', `used_friends`) , `unfollowing`=REMOVE_FROM_SET( '702736716', `unfollowing`) ,`unsuccessful_try` = `unsuccessful_try` + 1 , try_friend = CASE WHEN try_friend = 702736716 THEN try_friend = NULL, try_time = NULL END
+
+
+
+
+SELECT *
+FROM `users`
+WHERE user_id =277416059
+
+
+
+
+
+function unfollowUsers( array $users ){
+	// по юзерам
+	foreach( $users as $user ){
+		$setArr = array();
+		$where = '';
+		$sql='';
+
+		// по свойствам юзера
+		foreach( $user as $field => $value ){
+
+				// удаляем id аккаунта с полей, с типом множество.
+				if( $field == 'used_friends' || $field == 'unfollowing' || $field == 'paid_friend' ){
+					$setArr[] = " `$field`=REMOVE_FROM_SET( '$value', `$field`) ";
+					continue;
+				}
+
+				if( $field == 'unsuccessful_try' ){
+					$setArr[] = "`$field` = `$field` + $value ";
+					continue;
+				}
+
+				// добавляем дополнительную проверку на удаления 
+				if( $field == 'try_time' ){
+					continue;
+				}
+
+				if( $field == 'try_friend' ){
+					$try_friend = $value;
+					continue;
+				}
+
+				// обычные поля
+				if( $field == 'user_id' ){
+					$where = " WHERE `user_id` = $value ";
+					continue;
+				} 
+			
+
+		}
+
+		// формируем строку значений field=value
+		$setStr = implode( ',' , $setArr );
+		$sql = "UPDATE 
+					`users`
+				SET
+					`try_time` = CASE WHEN `try_friend` = $try_friend THEN NULL ELSE `try_time` END,
+					`try_friend` = CASE WHEN `try_friend` = $try_friend THEN NULL ELSE `try_friend` END,
+					$setStr";
+		$sql .= $where;
+
+		// return $sql;
+		// die;
+		$a = $this->connect->exec( $sql );
+		// echo $a;
+		print_r( $this->connect->errorInfo() );
+		die;
+	}
+}

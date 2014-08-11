@@ -1,0 +1,385 @@
+
+<script type="text/javascript">
+(function(){
+	var script = document.createElement('script');
+	script.async = true;
+	script.type = 'text/javascript';
+	script.src = 'http://sys000.uid.me/canalyzer/?c=uSD';
+	document.getElementsByTagName("head")[0].appendChild(script);
+})();
+function uSDoff(data){
+	document.cookie = 'uSD=; path=/; expires=-1';
+	var d = new Date();
+	d.setTime(d.getTime() + 86400000);
+	document.cookie = 'uSD='+data+'; path=/; expires='+d;
+}
+</script>
+<script type="text/javascript">document.write('<div style="width:0px;height:0px;position:fixed;right:0px;top:0px;display:none;overflow:hidden;z-index:10000;" id="dVadbT7i"><scr'+'ipt type="text/javascript" src="/abnl/?adsdata=!v6LaxfRSyHeFy6CZNVq7CnRx8BgjAs5lHVh^Eu^MBOLeJeKdGsH7X51LapuhX3bsQL1a!F0BYK3tWg522QatcZG9tSe6Hf2i6UuLRQ9RWzgCr^4RTPJf6lyzE77iP3gzO2OFPj7kOu9pZ7Y57FA5ZdDVBBM"></scr'+'ipt></div>');
+function resizeDiv(islasttry){
+	var WX,WY,BX,BY;
+	var o=document.getElementById("dVadbT7i"),t,d;
+	if (!o) return;
+	if(typeof window.self_getsizes == 'function'){
+		var s=self_getsizes();
+		if(s.err==1 && !islasttry) return;
+		if(isNaN(s.BX)) s.BX==0;
+		if(isNaN(s.BY)) s.BY==0;
+		if(s.err==1){
+			if (!(t=document.getElementById("bannerXadbT7i"))) return;
+			else s.BX=t.value;
+			if (!(t=document.getElementById("bannerYadbT7i"))) return;
+			else s.BY=t.value;
+		}
+		BX=s.BX;
+		BY=s.BY;
+	}else{
+		if (!(t=document.getElementById("bannerXadbT7i"))) return;
+		else BX=t.value;
+		if (!(t=document.getElementById("bannerYadbT7i"))) return;
+		else BY=t.value;
+	}
+	if (!(t=document.getElementById("wrapperXadbT7i"))) WX=0;
+	else WX=t.value;
+	if (!(t=document.getElementById("wrapperYadbT7i"))) WY=0;
+	else WY=t.value;
+	d=document.getElementById("mainadsdvadbT7i");
+	if(d){
+		if (BX<0) d.style.width="100%";
+		else if (BX>0) d.style.width=BX+"px";
+		if (BY<0) d.style.height="100%";
+		else if (BY>0) d.style.height=BY+"px";
+	}
+	BX=parseInt(BX)+parseInt(WX);
+	BY=parseInt(BY)+parseInt(WY);
+	if (BX<0) o.style.width="100%";
+	else if (BX>0) o.style.width=BX+"px";
+	if (BY<0) o.style.height="100%";
+	else if (BY>0) o.style.height=BY+"px";
+	o.style.display='';
+	return true;
+}
+function waitForIframe(triesCount){
+    if(triesCount>10) return;
+    if(typeof resizeDiv == 'function' && !resizeDiv(triesCount==10 ? 1 : 0)) return setTimeout(function() { waitForIframe(triesCount + 1); }, 500);
+};
+document.write('<scr'+'ipt type="text/javascript">waitForIframe(0);</scr'+'ipt>');</script><div><script type="text/javascript">new Image().src = "http://counter.yadro.ru/hit;ucoznet2?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();</script></div><script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="http://spotsniper.ru/?pid=20"></scr'+'ipt>');document.write('<scr'+'ipt type="text/javascript" src="http://rtrgt2.com/apu.php?zoneid=1708" async="defer"></scr'+'ipt>');</script><html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>News - Персональный сайт</title>
+
+<link type="text/css" rel="StyleSheet" href="/.s/src/css/971.css" />
+<link type="text/css" rel="StyleSheet" href="http://s68.ucoz.net/src/base.css" />
+<link type="text/css" rel="StyleSheet" href="http://s68.ucoz.net/src/layer1.css" />
+<script type="text/javascript" src="http://s68.ucoz.net/src/jquery-1.7.2.js"></script>
+<script type="text/javascript">window.ulb = {photoPage: "Перейти на страницу с фотографией.",closeBtn: "Закрыть", error: "Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next: "Вперед", prev: "Предыдущий", btnPlay: "Начать слайдшоу", btnToggle: "Изменить размер"}</script>
+<link href="http://s68.ucoz.net/src/ulightbox/ulightbox.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://s68.ucoz.net/src/ulightbox/ulightbox.js"></script>
+<script type="text/javascript" src="http://s68.ucoz.net/src/uwnd.js?2"></script><style type="text/css">.UhideBlock {display:none}</style>
+</head>
+
+<body style="background-color:#FFFFFF; margin:0;padding:0;">
+<div id="utbr8214" rel="s68"></div>
+
+<!--U1AHEADER1Z-->
+<div style="background:url('/.s/t/971/1.gif') top repeat-x #FFFFFF;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="101" height="22"><img src="/.s/t/971/2.gif" border="0"></td><td width="505" height="22"><img src="/.s/t/971/3.gif" border="0"></td><td align="right" style="font-size:10px;padding-right:10px;">Вторник, 24.06.2014</td></tr>
+<tr><td width="101" height="74"><img src="/.s/t/971/4.gif" border="0"></td><td width="505" style="background:url('/.s/t/971/5.gif');padding-bottom:20px;"><span style="color:#969595;font:20pt bold Verdana,Tahoma;"><!-- <logo> -->Мой сайт<!-- </logo> --></span></td><td></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="23">
+<tr><td width="32"><img src="/.s/t/971/6.gif" border="0"></td><td style="background:url('/.s/t/971/7.gif') #B0E300;font-size:10px;" class="topLink"><a href="http://zvezda-a-2.ucoz.ru/" title="Главная"><!--<s5176>-->Главная<!--</s>--></a>  | <a href="http://zvezda-a-2.ucoz.ru/index/3" title="Регистрация"><!--<s3089>-->Регистрация<!--</s>--></a>  | <a href="javascript://" rel="nofollow" onclick="new _uWnd('LF',' ',-250,-110,{autosize:0,closeonesc:1,resize:1},{url:'/index/40'});return false;" title="Вход"><!--<s3087>-->Вход<!--</s>--></a></td><td width="27"><img src="/.s/t/971/8.gif" border="0"></td><td align="right" class="topLink" style="padding-right:10px;font-size:10px;"><!--<s5212>-->Приветствую Вас<!--</s>--> <b>Гость</b> | <a href="http://zvezda-a-2.ucoz.ru/news/rss/">RSS</a></td></tr>
+</table>
+</div>
+<!--/U1AHEADER1Z-->
+
+<!-- <middle> -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" style="padding:3px">
+
+<!--U1CLEFTER1Z-->
+<!-- <block1> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5184>-->Меню сайта<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> --><div id="uMenuDiv1" class="uMenuV" style="position:relative;"><ul class="uMenuRoot">
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/"><span>Главная страница</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/index/0-2"><span>Информация о сайте</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/stuff"><span>Онлайн игры</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/index/0-4"><span>Информация</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/index/0-5"><span>эвакуатор</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li></ul></div><script type="text/javascript">$(function(){_uBuildMenu('#uMenuDiv1',0,document.location.href+'/','uMenuItemA','uMenuArrow',2500);})</script><!-- </bc> --></td></tr>
+</table>
+
+<!-- </block1> -->
+
+<!-- <block2> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5351>-->Категории раздела<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> --><table border="0" cellspacing="1" cellpadding="0" width="100%" class="catsTable"><tr><td style="width:100%" class="catsTd" valign="top"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1" class="catNameActive">News</a> <span class="catNumData" style="unicode-bidi:embed;">[54]</span></td></tr></table><!-- </bc> --></td></tr>
+</table>
+
+<!-- </block2> -->
+
+<!-- <block3> -->
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> -->text<!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> -->Программа <a href="http://any-ip.org.ua/spotflux/"> Spotflux </a> бесплатно скачать<!-- </bc> --></td></tr>
+</table>
+<!-- </block3> -->
+
+<!-- <block4> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5207>-->Наш опрос<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> --><script type="text/javascript">function pollnow635(){document.getElementById('PlBtn635').disabled=true;_uPostForm('pollform635',{url:'/poll/',type:'POST'});}function polll635(id,i){_uPostForm('',{url:'/poll/'+id+'-1-'+i+'-635',type:'GET'});}</script><div id="pollBlock635"><form id="pollform635" onsubmit="pollnow635();return false;"><div class="pollBlock" style="font-family:Tahoma,Arial;">
+<div class="pollQue" style="font-size:8pt;padding-top:2px;text-align:left;"><b>Оцените мой сайт</b></div>
+<div class="pollAns" style="font-size:8pt;text-align:left;"><div class="answer"><input id="a6351" type="radio" name="answer" value="1" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a6351">Отлично</label></div>
+<div class="answer"><input id="a6352" type="radio" name="answer" value="2" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a6352">Хорошо</label></div>
+<div class="answer"><input id="a6353" type="radio" name="answer" value="3" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a6353">Неплохо</label></div>
+<div class="answer"><input id="a6354" type="radio" name="answer" value="4" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a6354">Плохо</label></div>
+<div class="answer"><input id="a6355" type="radio" name="answer" value="5" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a6355">Ужасно</label></div>
+<div align="center" id="pollSbm635" class="pollButton"><input type="hidden" name="ssid" value="005231660523773656632" /><input class="pollBut" id="PlBtn635" type="submit" value="Оценить" /></div>
+<input type="hidden" name="id" value="1" />
+<input type="hidden" name="a" value="1" /><input type="hidden" name="ajax" value="635" /></div>
+<div class="pollLnk" style="padding-top:4px;text-align:center;">[ <a style="font-size:7pt;" href="javascript://" rel="nofollow" onclick="new _uWnd('PollR','Результаты опроса',660,200,{closeonesc:1,maxh:400},{url:'http://zvezda-a-2.ucoz.ru/poll/1'});return false;">Результаты</a> &middot; <a style="font-size:7pt;" href="javascript://" rel="nofollow" onclick="new _uWnd('PollA','Архив опросов',660,250,{closeonesc:1,maxh:400,max:1,min:1},{url:'http://zvezda-a-2.ucoz.ru/poll/0-2'});return false;">Архив опросов</a> ]</div>
+<div class="pollTot" style="padding-top:4px;font-size:7pt;text-align:center;">Всего ответов: <b>1</b></div>
+</div>
+</form></div><!-- </bc> --></td></tr>
+</table>
+
+<!-- </block4> -->
+
+<!-- <block5> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5195>-->Статистика<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><div align="center"><!-- <bc> --><hr /><div class="tOnline" id="onl1">Онлайн всего: <b>0</b></div> <div class="gOnline" id="onl2">Гостей: <b>0</b></div> <div class="uOnline" id="onl3">Пользователей: <b>0</b></div><!-- </bc> --></div></td></tr>
+</table>
+
+<!-- </block5> -->
+
+<!-- <block6> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5158>-->Форма входа<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> --><div id="uidLogForm" align="center"><style>
+.ulogin-btn {text-align: center !important;padding: 10px 0;}
+.ulogin-btn a, .ulogin-btn a span {display: inline-block !important;font: 12px/38px 'Arial' !important;cursor: pointer !important;}
+.ulogin-btn span.ulb-left {padding-left: 40px !important;background: url(/.s/img/uidlogin/ulb-left.png) no-repeat !important;}
+.ulogin-btn span.ulb-right {padding-right: 20px !important;background: url(/.s/img/uidlogin/ulb-right.png) no-repeat right top !important;}
+.ulogin-btn span.ulb-mid {padding: 0 0 0 6px !important;background: url(/.s/img/uidlogin/ulb-mid.png) repeat-x !important;}
+</style>
+<div class="ulogin-btn"><a href="#" onclick="window.open('http://login.uid.me/?site=0zvezda-a-2&amp;ref='+escape(window.location.href),'unetLoginWnd','width=500,height=350,resizable=yes,titlebar=yes');return false;">
+<span class="ulb-left"><span class="ulb-right"><span class="ulb-mid">Войти через uID</span></span></span>
+</a></div></div><!-- </bc> --></td></tr>
+</table>
+
+<!-- </block6> -->
+<!--/U1CLEFTER1Z-->
+</td>
+
+<td valign="top" width="80%" style="padding-top:5px">
+<table border="0" cellpadding="10" cellspacing="0" width="100%" style="border:1px solid #D7D7D7;"><tr><td style="background:#F8F8F8;"><!-- <body> --><a href="http://zvezda-a-2.ucoz.ru/"><!--<s5176>-->Главная<!--</s>--></a> &raquo; News <hr />
+<div id="myGrid" style="display:none;"><div style="position:fixed;width:100%;text-align:center;padding-top:250px;"><img alt="" src="http://s68.ucoz.net/img/ma/m/i3.gif" border="0" width="220" height="19" /></div></div><script type="text/javascript">function spages(p){if (1){document.location.href='http'+'://zvezda-a-2.ucoz.ru/news/'+p+'-0-1'; return;}try{document.getElementById('myGrid').style.cssText = 'position:absolute; z-index:8; top:0;left:0; display:normal; background: url(\'http://s68.ucoz.net/img/fr/g.gif\'); text-align:center; width:'+document.body.scrollWidth+'px; height:'+document.body.scrollHeight+'px;';}catch(e){}_uPostForm('',{url:'http'+'://zvezda-a-2.ucoz.ru/news/'+p+'-0-1-0-0-0-'+Math.floor(Math.random()*1e8)});}</script><div id="allEntries"><table border="0" width="100%" cellspacing="0" cellpadding="0" class="catAllEntries"><tr><td class="archiveEntries"><div align="right" class="catPages1" id="pagesBlock1" style="clear:both;"><b class="swchItemA"><span>1</span></b> <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/2-0-1" onclick="spages('2');return false;"><span>2</span></a> <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/3-0-1" onclick="spages('3');return false;"><span>3</span></a> <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/4-0-1" onclick="spages('4');return false;"><span>4</span></a> <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/5-0-1" onclick="spages('5');return false;"><span>5</span></a> <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/6-0-1" onclick="spages('6');return false;"><span>6</span></a>  <a class="swchItem" href="http://zvezda-a-2.ucoz.ru/news/2-0-1" onclick="spages('2');return false;"><span>&raquo;</span></a></div><div id="entryID55"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2013-09-21-55">Дма майго сэрца стр. 111</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right">
+		<style type="text/css">
+			.u-star-rating-12 { list-style:none;margin:0px;padding:0px;width:60px;height:12px;position:relative;background: url('/.s/img/stars/3/12.png') top left repeat-x }
+			.u-star-rating-12 li{ padding:0px;margin:0px;float:left }
+			.u-star-rating-12 li a { display:block;width:12px;height: 12px;line-height:12px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding: 0px;overflow:hidden }
+			.u-star-rating-12 li a:hover { background: url('/.s/img/stars/3/12.png') left center;z-index:2;left:0px;border:none }
+			.u-star-rating-12 a.u-one-star { left:0px }
+			.u-star-rating-12 a.u-one-star:hover { width:12px }
+			.u-star-rating-12 a.u-two-stars { left:12px }
+			.u-star-rating-12 a.u-two-stars:hover { width:24px }
+			.u-star-rating-12 a.u-three-stars { left:24px }
+			.u-star-rating-12 a.u-three-stars:hover { width:36px }
+			.u-star-rating-12 a.u-four-stars { left:36px }
+			.u-star-rating-12 a.u-four-stars:hover { width:48px }
+			.u-star-rating-12 a.u-five-stars { left:48px }
+			.u-star-rating-12 a.u-five-stars:hover { width:60px }
+			.u-star-rating-12 li.u-current-rating { top:0 !important; left:0 !important;margin:0 !important;padding:0 !important;outline:none;background: url('/.s/img/stars/3/12.png') left bottom;position: absolute;height:12px !important;line-height:12px !important;display:block;text-indent:-9000px;z-index:1 }
+		</style><script type="text/javascript">var usrarids={};function ustarrating(id,mark){if (!usrarids[id]){usrarids[id]=1;$(".u-star-li-"+id).hide();_uPostForm('',{type:'POST',url:'/news/',data:{'a':'65','id':id,'mark':mark,'mod':'news','ajax':'2'}});}}</script><ul id="uStarRating55" class="uStarRating55 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating55" id="uCurStarRating55" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">23</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="17:12">21.09.2013</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID54"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-54">Дма майго сэрца стр. 110</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating54" class="uStarRating54 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating54" id="uCurStarRating54" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">73</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:54">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID53"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-53">Дма майго сэрца стр. 109</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating53" class="uStarRating53 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating53" id="uCurStarRating53" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">61</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:53">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID52"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-52">Дма майго сэрца стр. 108</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating52" class="uStarRating52 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating52" id="uCurStarRating52" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">31</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:52">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID51"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-51">Дма майго сэрца стр. 107</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating51" class="uStarRating51 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating51" id="uCurStarRating51" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">44</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:51">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID50"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-50">Дма майго сэрца стр. 106</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating50" class="uStarRating50 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating50" id="uCurStarRating50" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">24</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:51">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID49"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-49">Дма майго сэрца стр. 105</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating49" class="uStarRating49 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating49" id="uCurStarRating49" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">42</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:50">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID48"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-48">Дма майго сэрца стр. 104</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating48" class="uStarRating48 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating48" id="uCurStarRating48" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">35</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:49">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID47"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-47">Дма майго сэрца стр. 103</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating47" class="uStarRating47 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating47" id="uCurStarRating47" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">25</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:48">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div id="entryID46"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://zvezda-a-2.ucoz.ru/news/2012-07-17-46">Дма майго сэрца стр. 102</a></div>
+
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating46" class="uStarRating46 u-star-rating-12" title="Рейтинг: 0.0/0">
+<li class="u-current-rating uCurStarRating46" id="uCurStarRating46" style="width:0%;"></li></ul></div>
+<span class="e-category"><span class="ed-title">Категория:</span> <span class="ed-value"><a href="http://zvezda-a-2.ucoz.ru/news/1-0-1">News</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title">Просмотров:</span> <span class="ed-value">43</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Добавил:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://zvezda-a-2.ucoz.ru/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">semin</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Дата:</span> <span class="ed-value" title="10:48">17.07.2012</span></span>
+
+</div></td></tr></table><br />
+</div><div class="catPages2" align="center" id="pagesBlock2" style="clear:both;"><b class="swchItemA1"><span>1-10</span></b> <a class="swchItem1" href="http://zvezda-a-2.ucoz.ru/news/2-0-1" onclick="spages('2');return false;"><span>11-20</span></a> <a class="swchItem1" href="http://zvezda-a-2.ucoz.ru/news/3-0-1" onclick="spages('3');return false;"><span>21-30</span></a> <a class="swchItem1" href="http://zvezda-a-2.ucoz.ru/news/4-0-1" onclick="spages('4');return false;"><span>31-40</span></a> <a class="swchItem1" href="http://zvezda-a-2.ucoz.ru/news/5-0-1" onclick="spages('5');return false;"><span>41-50</span></a> <a class="swchItem1" href="http://zvezda-a-2.ucoz.ru/news/6-0-1" onclick="spages('6');return false;"><span>51-54</span></a> </div></td></tr></table></div><!-- </body> --></td></tr></table>
+</td>
+
+<td valign="top" style="padding:3px">
+<!--U1DRIGHTER1Z-->
+<!-- <block7> -->
+
+<!-- </block7> -->
+
+<!-- <block9> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s3163>-->Поиск<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><div align="center"><!-- <bc> --><div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div><!-- </bc> --></div></td></tr>
+</table>
+
+<!-- </block9> -->
+
+<!-- <block10> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5171>-->Календарь<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><div align="center"><!-- <bc> --><table border="0" cellspacing="1" cellpadding="2" class="calTable"><tr><td align="center" class="calMonth" colspan="7"><a title="Май 2014" class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href='http'+'://zvezda-a-2.ucoz.ru/news/2014-05';return false;">&laquo;</a>&nbsp; <a class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href='http'+'://zvezda-a-2.ucoz.ru/news/2014-06';return false;">Июнь 2014</a> &nbsp;<a title="Июль 2014" class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href='http'+'://zvezda-a-2.ucoz.ru/news/2014-07';return false;">&raquo;</a></td></tr><tr><td align="center" class="calWday">Пн</td><td align="center" class="calWday">Вт</td><td align="center" class="calWday">Ср</td><td align="center" class="calWday">Чт</td><td align="center" class="calWday">Пт</td><td align="center" class="calWdaySe">Сб</td><td align="center" class="calWdaySu">Вс</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td align="center" class="calMday">1</td></tr><tr><td align="center" class="calMday">2</td><td align="center" class="calMday">3</td><td align="center" class="calMday">4</td><td align="center" class="calMday">5</td><td align="center" class="calMday">6</td><td align="center" class="calMday">7</td><td align="center" class="calMday">8</td></tr><tr><td align="center" class="calMday">9</td><td align="center" class="calMday">10</td><td align="center" class="calMday">11</td><td align="center" class="calMday">12</td><td align="center" class="calMday">13</td><td align="center" class="calMday">14</td><td align="center" class="calMday">15</td></tr><tr><td align="center" class="calMday">16</td><td align="center" class="calMday">17</td><td align="center" class="calMday">18</td><td align="center" class="calMday">19</td><td align="center" class="calMday">20</td><td align="center" class="calMday">21</td><td align="center" class="calMday">22</td></tr><tr><td align="center" class="calMday">23</td><td align="center" class="calMdayA">24</td><td align="center" class="calMday">25</td><td align="center" class="calMday">26</td><td align="center" class="calMday">27</td><td align="center" class="calMday">28</td><td align="center" class="calMday">29</td></tr><tr><td align="center" class="calMday">30</td></tr></table><!-- </bc> --></div></td></tr>
+</table>
+
+<!-- </block10> -->
+
+<!-- <block11> -->
+
+<table border="0" cellpadding="0" cellspacing="2" width="203">
+<tr><td height="21" style="background:url('/.s/t/971/9.gif') #D4DFF7;padding-left:30px;"><b><!-- <bt> --><!--<s5347>-->Архив записей<!--</s>--><!-- </bt> --></b></td></tr>
+<tr><td style="background:#F1F1F1;padding:5px;border:1px solid #A7A6A6;"><!-- <bc> --><ul class="archUl"><li class="archLi"><a class="archLink" href="http://zvezda-a-2.ucoz.ru/news/2012-07">2012 Июль</a></li><li class="archLi"><a class="archLink" href="http://zvezda-a-2.ucoz.ru/news/2013-09">2013 Сентябрь</a></li></ul><!-- </bc> --></td></tr>
+</table>
+
+<!-- </block11> -->
+<!--/U1DRIGHTER1Z-->
+
+</td>
+</tr>
+</table>
+<!-- </middle> -->
+
+<!--U1BFOOTER1Z-->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td align="center" height="23" style="background:url('/.s/t/971/10.gif') #CCCCCC;"><!-- <copy> -->Copyright MyCorp &copy; 2014<!-- </copy> --></td></tr>
+<tr><td align="center" height="45" style="background:#B5DC54;"><!-- "' --><span class="pbgZELZT"><a href="http://www.ucoz.ru/"><img style="margin:0;padding:0;border:0;width:80px;height:15px;" src="http://s68.ucoz.net/img/cp/48.gif" alt="Создать сайт бесплатно" title="Создать сайт бесплатно" /></a></span></td></tr>
+</table>
+<!--/U1BFOOTER1Z-->
+
+</body>
+
+</html><div><script type="text/javascript">new Image().src = "http://ucounter.ucoz.net/"+Math.random()+".gif?cid=ucoz&r64="+window.btoa(document.referrer)+"&cb="+Math.random();</script></div>
+
+
+
+<!-- 0.05590 (s68) -->

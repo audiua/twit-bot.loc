@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+Options +Indexes
+
+php_value auto_prepend_file /home/audiua/www/twit-bot.loc/protected/helpers/prepend.php
